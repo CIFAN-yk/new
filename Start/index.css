@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('bg.jpg');
+	background-size: cover;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* .container:hover{
+	width: 500px;
+} */
+
+.text{
+	display: flex;
+	float: left;
+	padding-left: 20px;
+	width: 0px;
+	height: 40px;
+	background: #1118;
+	color: #fff;
+	border-radius: 20px 0 0 20px;
+	border: none;
+	outline: none;
+	transition: 0.6s;
+}
+.container:hover .text{
+	width: 430px;
+}
+
+
+.ssa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+	background: #1118;
+	border-radius: 0 20px 20px 0;
+}
+
+.ss{
+	display: flex;
+	width: 26px;
+	height: 26px;
+}
+
+.next{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 0px;
+	background: #111b;
+	overflow: hidden;
+	transition: 0.8s;
+}
+
+#bd:target .next{
+	height: 624px;
+}
+
+.box{
+	width: 320px;
+	height: 520px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 8px;
+	overflow: hidden;
+	transform: translate(-50%, -50%);
+	background-color: #123456;/**/
+}
+
+
+.bg{
+	height: 20%;
+	width: 100%;
+	background-image: url('bg.jpg');
+	background-size: cover;
+}
+.top{
+	position: absolute;
+	width: 100%;
+	height: 15px;
+	background-color: #1115;
+}
+.c{
+	width: 20px;
+	padding: 5px;
+	height: 20px;
+	background-color: #1118;
+	border-radius: 50%;
+}
+.c img{
+	width: 20px;
+	height: 20px;
+}
+
+.back{
+	float: left;
+	margin: 32px 0;
+}
+.search{
+	float: right;
+	margin: 32px 0;
+}
+.more{
+	float: right;
+	margin: 32px 0;
+}
+
+
+.xx{
+	width: 96%;
+	padding: 1% 2%;
+	height: 28%;
+	background-color: #fff;
+}
+.tx{
+	width: 100%;
+	height: 40%;
+
+}
+.tx img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(20px, -20px)
+}
+.o{
+	float: right;
+	width: 50px;
+	height: 20px;
+	margin-right: 10px;
+	background: #999;
+	border-radius: 3px;
+}
+.gz{
+	width: 130px;
+	height: 25px;
+	margin: 10px 10px 0 0;
+	float: right;
+	background: #fb7299;
+	color: #fff;
+	font-weight: 800;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+
+.zk{
+	width: 30px;
+	height: 25px;
+	margin: 10px 10px 0 0;
+	float: right;
+	background: #999;
+	border-radius: 3px;
+}
+.xq,
+.cd{
+	width: 100%;
+	height: 26%;
+	margin: 2% 0;
+	border-radius: 5px;
+	background-color: #999;
+}
+
+.dh{
+	width: 96%;
+	padding: 1% 2%;
+	height: 50%;
+	background-color: #fff;
+}
+.xbox{
+	width: 96%;
+	height: 110px;
+}
+.sp{
+	width: 40%;
+	height: 100px;
+	float: left;
+	background: #999;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.line{
+	width: 50%;
+	height: 3px;
+	float: left;
+	margin-top: 10px;
+	background: #999;
+}
