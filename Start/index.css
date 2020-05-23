@@ -38,6 +38,7 @@ body{
 }
 .container:hover .text{
 	width: 430px;
+	content: 'hahaha';
 }
 
 
@@ -68,7 +69,8 @@ body{
 	transition: 0.8s;
 }
 
-#bd:target .next{
+#bd:target .next,
+.next:target{
 	height: 624px;
 }
 
@@ -161,6 +163,21 @@ body{
 	font-size: 16px;
 	border-radius: 3px;
 	transition: 0.5s;
+}
+.gz::before{
+	content: '√关注';
+	padding: 0 40px;
+	height: 25px;
+	align-items: center;
+}
+
+.next:target .gz{
+	background-color: #999;
+	color: #333;
+	content: 'ads';
+}
+.next:target .gz::before{
+	content: '已关注';
 }
 
 
